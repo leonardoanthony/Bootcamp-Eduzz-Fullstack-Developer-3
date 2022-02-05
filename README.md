@@ -31,7 +31,7 @@
 ### Banco de dados
 - [ ] My SQL - Trabalhando com suas primeiras tabelas
 - [ ] Introdução ao MongoDB e Bancos de Dados NoSQL
-### Back-end
+### Back-end com NodeJS
 - [ ] Introdução ao Node.js com JavaScript
 - [ ] Explorando o Estilo Arquitetural REST com Node.js
 - [ ] Node.js com Bancos de Dados Relacionais SQL
