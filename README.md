@@ -19,7 +19,7 @@
     * [ ] Resolvendo Desagios de Código em JavaScript
     * [ ] Desafios Básicos - Eduzz FullStack Developer
     * [ ] Criando seu jogo da memória estilo Genius
-### React JS
+### Front-End com React JS
 - [ ] Introdução ao ReactJS
 - [ ] Trabalhando com Componentes em React
 - [ ] Desenvolvimento de aplicações para internet com ReactJS
