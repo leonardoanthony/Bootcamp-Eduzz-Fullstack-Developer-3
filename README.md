@@ -15,9 +15,9 @@
 ### HTML5, CSS3 e JavaScript ES6
 - :white_check_mark: Introdução a criação de websites com HTML5 e CSS3
 - :white_check_mark: JavaScript ES6 essencial
-- :black_square_button: Desenvolvimento Avançado com JavaScript ES6
+- :arrow_forward: Desenvolvimento Avançado com JavaScript ES6
 - :black_square_button: Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
-    * :black_square_button: Resolvendo Desagios de Código em JavaScript
+    * :black_square_button: Resolvendo Desafios de Código em JavaScript
     * :black_square_button: Desafios Básicos - Eduzz FullStack Developer
     * :black_square_button: Criando seu jogo da memória estilo Genius
 ### Front-End com React JS
@@ -41,7 +41,7 @@
     * :black_square_button: Construindo Encurtador de URL
 ### DevOps
 - :black_square_button: Fundamentos de Arquitetura de Sistemas
-- :black_square_button: Introdução a orquestração de cointêineres com Docker
+- :black_square_button: Introdução a orquestração de contêineres com Docker
 - :black_square_button: Introdução prática a computação em nuvem usando AWS
 
 
