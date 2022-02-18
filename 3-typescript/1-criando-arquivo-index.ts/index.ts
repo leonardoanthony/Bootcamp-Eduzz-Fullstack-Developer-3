@@ -1,48 +1,23 @@
-function soma (a: number, b: number){
-    return a + b;
+const input = document.getElementById('input') as HTMLInputElement;
+
+input.addEventListener('input', (event) => {
+    const info = event.currentTarget as HTMLInputElement;
+    console.log(info.value);
+})
+
+// Generic Types
+
+function addValueToList(arrayList, value){
+    return arrayList.map(() => value);
 }
 
-soma(2,3);
-//! soma('a','b');
+addValueToList([1,2,3],4);
 
-//* Interfaces
+//TS
 
-interface IAnimal {
-    nome: string;
-    tipo: 'terrestre' | 'aquatico';
-    // executarRugido(alturaEmDecibeis: number): void;
+function addValueToListNew<T>(arrayList: T[], value: T){
+    return arrayList.map(() => value);
 }
 
-const animal: IAnimal = {
-    nome: 'Elefante',
-    tipo: 'terrestre',
-    // executarRugido: (alturaEmDecibeis) => (`${alturaEmDecibeis}dB`),
-}
-
-//! animal.executarRugido('s');
-//* animal.executarRugido(50);
-
-interface IFelino extends IAnimal{
-    visaoNoturna: boolean;
-}
-
-const felino: IFelino = {
-    nome: 'Leopardo',
-    tipo: 'terrestre',
-    visaoNoturna: true,
-    // executarRugido: (alturaEmDecibeis) => (`${alturaEmDecibeis}dB`),
-}
-
-interface ICanino extends IAnimal{
-    porte: 'grande' | 'medio' | 'pequeno',
-}
-
-type IDomestico = IFelino | ICanino;
-// | seleciona características de um ou de outro
-// & seleciona características de ambos
-
-const domestico: IDomestico = {
-    nome: 'Cachorro',
-    tipo: 'terrestre',
-    porte: 'grande'
-}
+addValueToListNew(['A', 'B'],'c');
+addValueToListNew([1,2,3],4);
