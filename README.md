@@ -17,9 +17,9 @@
 - :white_check_mark: JavaScript ES6 essencial
 - :white_check_mark: Desenvolvimento Avançado com JavaScript ES6
 - :white_check_mark: Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
-    * :arrow_forward: Resolvendo Desafios de Código em JavaScript
-    * :black_square_button: Desafios Básicos - Eduzz FullStack Developer
-    * :black_square_button: Criando seu jogo da memória estilo Genius
+    * :white_check_mark: Resolvendo Desafios de Código em JavaScript
+    * :white_check_mark: Desafios Básicos - Eduzz FullStack Developer
+    * :arrow_forward: Criando seu jogo da memória estilo Genius
 ### Front-End com React JS
 - :black_square_button: Introdução ao ReactJS
 - :black_square_button: Trabalhando com Componentes em React
