@@ -1,23 +1,37 @@
-const input = document.getElementById('input') as HTMLInputElement;
+//* Readonly e Private
 
-input.addEventListener('input', (event) => {
-    const info = event.currentTarget as HTMLInputElement;
-    console.log(info.value);
-})
-
-// Generic Types
-
-function addValueToList(arrayList, value){
-    return arrayList.map(() => value);
+interface ICachorro {
+    nome: string,
+    idade: number,
+    parqueFavorito?: string,
 }
 
-addValueToList([1,2,3],4);
-
-//TS
-
-function addValueToListNew<T>(arrayList: T[], value: T){
-    return arrayList.map(() => value);
+type CachorroSomenteLeitura = {
+    readonly[K in keyof ICachorro]: ICachorro[K];
+    // readonly[K in keyof ICachorro]-?: ICachorro[K]; // Remove os opcionais
 }
 
-addValueToListNew(['A', 'B'],'c');
-addValueToListNew([1,2,3],4);
+class Cachorro implements ICachorro {
+    nome;
+    // private idade;
+    idade;
+
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+const meuCachorro = new Cachorro('Benji',5);
+
+// Importar bibliotecas
+
+import $ from 'jquery';
+
+$.fn.extend({
+    novaFuncao(){
+        console.log('Chamou nova função')
+    }
+});
+
+$('body').novaFuncao();

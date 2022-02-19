@@ -16,8 +16,8 @@
 - :white_check_mark: Introdução a criação de websites com HTML5 e CSS3
 - :white_check_mark: JavaScript ES6 essencial
 - :white_check_mark: Desenvolvimento Avançado com JavaScript ES6
-- :arrow_forward: Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
-    * :black_square_button: Resolvendo Desafios de Código em JavaScript
+- :white_check_mark: Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
+    * :arrow_forward: Resolvendo Desafios de Código em JavaScript
     * :black_square_button: Desafios Básicos - Eduzz FullStack Developer
     * :black_square_button: Criando seu jogo da memória estilo Genius
 ### Front-End com React JS
