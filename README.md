@@ -19,9 +19,9 @@
 - :white_check_mark: Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
     * :white_check_mark: Resolvendo Desafios de Código em JavaScript
     * :white_check_mark: Desafios Básicos - Eduzz FullStack Developer
-    * :arrow_forward: Criando seu jogo da memória estilo Genius
+    * :white_check_mark: Criando seu jogo da memória estilo Genius
 ### Front-End com React JS
-- :black_square_button: Introdução ao ReactJS
+- :arrow_forward: Introdução ao ReactJS
 - :black_square_button: Trabalhando com Componentes em React
 - :black_square_button: Desenvolvimento de aplicações para internet com ReactJS
 - :black_square_button: Práticas avançadas em projetos com ReactJS
