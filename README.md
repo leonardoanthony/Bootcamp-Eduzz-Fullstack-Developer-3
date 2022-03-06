@@ -21,16 +21,16 @@
     * :white_check_mark: Desafios Básicos - Eduzz FullStack Developer
     * :white_check_mark: Criando seu jogo da memória estilo Genius
 ### Front-End com React JS
-- :arrow_forward: Introdução ao ReactJS
-- :black_square_button: Trabalhando com Componentes em React
-- :black_square_button: Desenvolvimento de aplicações para internet com ReactJS
+- :white_check_mark: Introdução ao ReactJS
+- :white_check_mark: Trabalhando com Componentes em React
+- :arrow_forward: Desenvolvimento de aplicações para internet com ReactJS
 - :black_square_button: Práticas avançadas em projetos com ReactJS
 - :black_square_button: Introdução aos React Hooks
 - :black_square_button: Criando aplicações móveis multiplataforma com React Native
     * :black_square_button: Desafios JavaScript - Eduzz FullStack Developer
     * :black_square_button: Criando um front-end totalmente componentizado na prática com React JS
 ### Banco de dados
-- :black_square_button: My SQL - Trabalhando com suas primeiras tabelas
+- :white_check_mark: My SQL - Trabalhando com suas primeiras tabelas
 - :black_square_button: Introdução ao MongoDB e Bancos de Dados NoSQL
 ### Back-end com NodeJS
 - :black_square_button: Introdução ao Node.js com JavaScript
